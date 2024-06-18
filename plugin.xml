@@ -1,0 +1,17 @@
+<plugin id="cordova.plugin.detectspoofing" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>DetectSpoofing</name>
+    <description>Cordova Plugin to detect if the app is running on a simulator</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, simulator, spoofing</keywords>
+    <engines>
+        <engine name="cordova" version=">=5.0.0" />
+    </engines>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DetectSpoofing">
+                <param name="ios-package" value="DetectSpoofing"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/DetectSpoofing.m" />
+    </platform>
+</plugin>
