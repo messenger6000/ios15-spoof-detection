@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-detect-spoofing",
+  "version": "1.0.0",
+  "description": "Cordova Plugin to detect if the app is running on a simulator",
+  "main": "plugin.xml",
+  "keywords": [
+    "cordova",
+    "simulator",
+    "spoofing"
+  ],
+  "license": "Apache-2.0",
+  "cordova": {
+    "id": "cordova.plugin.detectspoofing",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/messenger6000/ios15-spoof-detection.git"
+  }
+}
