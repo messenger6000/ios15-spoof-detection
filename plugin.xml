@@ -9,9 +9,12 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="DetectSpoofing">
-                <param name="ios-package" value="DetectSpoofing"/>
+                <param name="ios-package" value="DetectSpoofing" />
             </feature>
         </config-file>
         <source-file src="src/ios/DetectSpoofing.m" />
     </platform>
+    <js-module src="www/DetectSpoofing.js" name="DetectSpoofing">
+        <clobbers target="cordova.plugins.DetectSpoofing" />
+    </js-module>
 </plugin>
